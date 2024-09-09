@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(71, 71, 74);
+}
+button{
+width :100px;
+height: 100px;
+border-radius: 50px;
+border: none;
+background-color: rgb(177, 173, 173);
+color: white;
+font-size: 3rem;
+font-weight: bold;
+cursor: pointer;
+}
+#calculator{
+    font-family: arial,sans-serif;
+    background-color: rgb(23, 203, 227);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem ;
+    text-align: left ;
+    border: none ;
+    background-color: rgb(180, 232, 238);
+    color: white;
+
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,0.2fr);
+    gap: 10px;
+    padding: 25px;
+}
+button:hover{
+    background-color: rgb(191, 191, 198);
+}
+button:active{
+    background-color: rgb(214, 214, 222);
+}
+.smoth_operatore{
+    background-color: orange;
+}
+.smoth_operatore:hover{
+    background-color: rgb(253, 188, 68);
+}
+.smoth_operatore:active{
+    background-color: rgb(251, 202, 112);
+}
+.delete{
+    background-color: rgb(237, 46, 46);
+}
+.delete:hover{
+    background-color: rgb(248, 71, 71);
+}
+.delete:active{
+    background-color: rgb(255, 114, 114);
+}
